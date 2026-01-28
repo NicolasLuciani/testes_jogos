@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <title>Placar_2</title>
+</head>
+<body>
+        <a href="index.html" class="botao_voltar" data-tooltip="Sair">
+          <i class="bi bi-arrow-left"></i>
+        </a>
+    <div class="tela_placar_futebol">
+
+
+        <!-- TOPO: nomes dos times -->
+        <div class="topo_times">
+            <input type="text" placeholder="Time 1" class="nome_time1">
+            <input type="text" placeholder="Time 2" class="nome_time2">
+        </div>
+
+        <div class="aviso_nome"></div>
+        <!-- MEIO: escudos + placar -->
+        <div class="meio_placar">
+
+            <a href="add_escudo.html" class="escudo_placar">
+            + Escudo
+            </a>
+
+            <div class="placar">
+            <span class="gols">0</span>
+            <span class="x">×</span>
+            <span class="gols">0</span>
+            </div>
+
+            <a href="add_escudo.html" class="escudo_placar">
+            + Escudo
+            </a>
+
+        </div>
+
+        <!-- RODAPÉ: ações -->
+        <div class="rodape_acoes">
+
+            <a class="btn_add_placar">
+            + Placar
+            </a>
+
+            <a href="placar_final.html" class="btn_iniciar_partida">
+            Iniciar partida
+            </a>
+
+        </div>
+
+
+    </div>
+    <script src="cod.js"></script>
+</body>
+</html>
